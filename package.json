@@ -1,0 +1,17 @@
+{
+  "name": "whatsapp-bot",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp utilisant Baileys et Whiskey-Sockets pour intercepter les messages View Once",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.5.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "author": "Ton Nom",
+  "license": "MIT"
+}
